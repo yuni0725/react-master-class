@@ -1,7 +1,5 @@
 import { createBrowserRouter } from "react-router-dom";
 import Coins from "./routes/Coins";
-import App from "./App";
-import NotFound from "./routes/NotFound";
 import Coin from "./routes/Coin";
 import Price from "./routes/Price";
 import Chart from "./routes/Chart";
@@ -9,7 +7,7 @@ import Chart from "./routes/Chart";
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App />,
+    element: "",
     children: [
       {
         path: "",
